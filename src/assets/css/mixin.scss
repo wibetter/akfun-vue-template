@@ -3,7 +3,7 @@ $borderColor: #ddd;
 
 // type 为top 或者 bottom
 @mixin borderTopOrBtm($type) {
-  &:after {
+  &::after {
     content: '';
     position: absolute;
     left: 0;
@@ -18,7 +18,7 @@ $borderColor: #ddd;
 
 // type为 right 或者 left
 @mixin borderRtOrLt($type) {
-  &:after {
+  &::after {
     content: '';
     position: absolute;
     top: 0;

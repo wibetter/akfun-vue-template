@@ -231,6 +231,7 @@ export default {
     border-radius: px2rem(4);
     box-sizing: border-box;
   }
+
   .media-mark {
     display: inline-block;
     height: px2rem(28);

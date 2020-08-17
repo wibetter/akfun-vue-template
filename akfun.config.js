@@ -9,7 +9,9 @@ function resolve(dir) {
 module.exports = {
   settings: {
     enableEslint: true, // 调试模式是否开启ESLint，默认开启ESLint检测代码格式
-    enableEslintFix: false // 是否自动修正代码格式，默认不自动修正
+    enableEslintFix: false, // 是否自动修正代码格式，默认不自动修正
+    enableStyleLint: true, // 是否开启StyleLint，默认开启ESLint检测代码格式
+    enableStyleLintFix: false // 是否需要StyleLint自动修正代码格式
   },
   webpack: {
     entry: { // webpack构建入口
@@ -71,7 +73,7 @@ module.exports = {
         changeOrigin: true
       }
     },
-    cssSourceMap: false,
+    cssSourceMap: true,
   },
   build: {
     // 用于构建生产环境代码的相关配置信息
