@@ -68,14 +68,9 @@ body {
 }
 
 /* 增加iphoneX适配 */
-@media only screen
-and (device-width: 375px)
-and (device-height: 812px)
-and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .page-wrap {
     padding-bottom: 34px;
-    // padding-bottom: constant(safe-area-inset-bottom);
-    // padding-bottom: env(safe-area-inset-bottom);
 
     .ipx-space-box {
       display: block;
@@ -87,7 +82,7 @@ and (-webkit-device-pixel-ratio: 3) {
         // height: calc(48px + constant(safe-area-inset-bottom));
         // height: calc(48px + env(safe-area-inset-bottom));
       }
-      */
+     */
   }
 }
 
