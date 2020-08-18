@@ -48,8 +48,8 @@ module.exports = {
       '#version#': '20200810.1',
     },
     local: { // 本地开发环境
-      '#dataApiBase#': 'http://localhost:1024', // 数据接口根地址
-      '#assetsPublicPath#': 'http://localhost:1024', // 静态资源根地址
+      '#dataApiBase#': '/', // 数据接口根地址
+      '#assetsPublicPath#': '', // 静态资源根地址
       '#routeBasePath#': '/', // 路由根地址
     },
     online: { // 线上正式环境配置参数
